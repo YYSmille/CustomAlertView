@@ -1,0 +1,22 @@
+{
+  "name": "CustomAlertView",
+  "version": "0.1.0",
+  "summary": "A short description of CustomAlertView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/YYSmille/CustomAlertView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "505878400@qq.com": "ywy@tangys.net"
+  },
+  "source": {
+    "git": "https://github.com/YYSmille/CustomAlertView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CustomAlertView/Classes/**/*"
+}
