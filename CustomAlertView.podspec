@@ -32,9 +32,10 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'CustomAlertView/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'CustomAlertView' => ['CustomAlertView/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    #'SVProgressHUD' => ['CustomAlertView/Assets/*.png
+    'SVProgressHUD' => ['CustomAlertView/Assets/SVProgressHUD/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

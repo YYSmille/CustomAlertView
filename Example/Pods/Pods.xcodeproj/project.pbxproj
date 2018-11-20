@@ -8,40 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		02AD78FBAEC6901726621AAA5AA3BABB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		04FF1534454F30069E389852D09F7C07 /* SVProgressHUD-Prefix.pch in Sources */ = {isa = PBXBuildFile; fileRef = B087E1C21BAB40D87085378C26FCA8EF /* SVProgressHUD-Prefix.pch */; };
-		14F6F52D12A507EB4C7BE41393C25720 /* success.png in Sources */ = {isa = PBXBuildFile; fileRef = 29D09E94D971D946981875ADF4DE26F1 /* success.png */; };
 		158F540CD2E6475804D08E4170F03DC2 /* Pods-CustomAlertView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A6513B724D12B383B6A2D181C717A5 /* Pods-CustomAlertView_Example-dummy.m */; };
-		23944D002224043A49077EB353F72A96 /* CustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A984455BDC815C843CD82065D59F78 /* CustomAlertView.m */; };
-		2BB9BD4B664EB11B9B150B09E02A36C3 /* CustomAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 587C0F1D82BA9180F46EB658C59E0200 /* CustomAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2E61F46C9D27F54653F973ABD7C93224 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		2FB63F16BE11609FC19B855AE351A2C3 /* info.png in Sources */ = {isa = PBXBuildFile; fileRef = 060AE8E93D947BA68A4E6647DA91E09E /* info.png */; };
-		36321AA39D89F8F0B7F3A62EE94107E0 /* SVProgressHUD+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D69B8174785E0594C7779934479A529 /* SVProgressHUD+extension.m */; };
-		42BDE1673467A9480B28DDA563E7EFBD /* error@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = F5F0128C476378E3F6729B02F4DFEF69 /* error@3x.png */; };
-		43EC2C3F53C0FD75FEC9E9750F796AC5 /* error.png in Sources */ = {isa = PBXBuildFile; fileRef = A1736112BFB0A3FA606FB5D9E9E254A7 /* error.png */; };
-		453C2251B5989D5E49B85FCD6124F404 /* CustomAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 643A7960D6B17897CD58AF24737DBC86 /* CustomAlertView-dummy.m */; };
+		187F42B4D21D9B03B1124E44DAB389C5 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B449FFAB83DEAA9D4D0BD2F6A28495FF /* SVProgressHUD.bundle */; };
+		264B23290EDA95D24CEC79F27D878CEB /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4CCFF721AA21C293491C15EEDA2BF6 /* SVRadialGradientLayer.m */; };
+		284877A9F80240EE4B363558D5E808CF /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = EDEB0F43927EB43B4750286A0F901AA3 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31FB04F6B73674F1599456623D5DC3E2 /* CustomTipView.h in Headers */ = {isa = PBXBuildFile; fileRef = 79EFDACBF6FC4156063E5B5CA5F55E40 /* CustomTipView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		333F6526AE80EF09974FF66BD179F20E /* SVProgressHUD+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A08A7D0D6F8948AE1C208D197906AA68 /* SVProgressHUD+extension.m */; };
+		471AC4DC86E36BEF8346349E8AFE3A4A /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = F71B7CAF4CD0C91013B32C5AE1BFD35C /* SVProgressAnimatedView.m */; };
 		49EF57E90F662D440360A55C74EF5172 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		694CD972E9FD6024383ED47C30E0D7AE /* info@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 80027AC2C34557764931124BAC23EA23 /* info@3x.png */; };
-		774292A17B99C52211721759F1143046 /* angle-mask@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = F4B1E50831753B73111D7E041CEC1407 /* angle-mask@3x.png */; };
+		4C3A67F9764D12CB5A6C631247F76B69 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CAFACB42E1E0981EEEEA9E041A45CB /* ReplaceMe.m */; };
+		680E910828FC69A0F5B0BB78AF2CE6F3 /* CustomAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E499C1F870D42BEB4D49A672B1787DA /* CustomAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B6F462B6624B1AA255D4AB14CE079CB /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF46B2853B134C90DD2622079964F863 /* SVIndefiniteAnimatedView.m */; };
+		709A9FFEE78FF254E8205C1265C9CF32 /* CustomAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B0C356927D4F86741FF99328EABAB0 /* CustomAlertView-dummy.m */; };
 		7A52DC3C31A3D6CE5208E43B76BE4F33 /* Pods-CustomAlertView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7639999FF70978C7CA9B906F70352611 /* Pods-CustomAlertView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		847FA825E3BC30C7DDD838EABA11F0C6 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 48E344BB569F185EC77C7D62FB8A3C1A /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		862EE90F095513E73AE756D3BED74521 /* error@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 15DD112291F6AAC664E3BF8A3180824E /* error@2x.png */; };
-		8826BC062620961EBE24A262CF83CFA4 /* CustomAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E6962B595B5AF1BD53EC0BE4A3EACD /* CustomAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92B9659D482CBD54AFF24A44DD4E971D /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = C07F4E2AFA314F832B5802990C14D5A5 /* SVProgressAnimatedView.m */; };
-		961173334F79F193FBC82326E04142BB /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E0645CBF4D99A7180101FC13AC3E0AB /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A17840034C10DF0DCB576491CCC7B190 /* SVProgressHUD+extension.h in Headers */ = {isa = PBXBuildFile; fileRef = DCBC364CBBF0E75D146483EC754D3E4C /* SVProgressHUD+extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD71BB840C14734579EDFF9C7841F346 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = EE22E658F8F38CFD0478D46E3C59BE49 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C1A3C57566E48079A70286CE92933509 /* angle-mask@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = CEEB10A0487EF6B41ADD2F765EE56123 /* angle-mask@2x.png */; };
-		C299F338D5FE88843CE1613DE4A40DC2 /* success@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = A7EF32EACC7CFE15009089823698847D /* success@3x.png */; };
-		C7080D50C9C19DD77F82E7C35F44CF2B /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D5FD359D956158D25D0E2DA7417686EC /* SVRadialGradientLayer.m */; };
-		CDB9041AB85ACF70E17C5CA973277B10 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 243203926B73E32BD8A381540D7D5CF2 /* ReplaceMe.m */; };
+		8078C4253D81B3C2550B3EAB4F568C9C /* CustomTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06ED3EE785920C32AE559F9B28EFFEC7 /* CustomTipView.m */; };
+		826A82F9D8653FDE6CA96EAE3F4857FE /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = F9A87E105E24E1E0F573585723008BF0 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A58FD410D0E5DFD7875C62D7BB19D8A /* CustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D11F37D1B2721A931D3409D7CA78C5 /* CustomAlertView.m */; };
+		9CFE3C9E7A92AE15F0BF5CF60925DB91 /* CustomAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E617529967449C0E8F882C1A5A3D1DA /* CustomAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABE92D47E8FDC33DDDB7318E74E231E3 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE0FCC1776DA3ADA6A656F54351C859 /* SVProgressHUD.m */; };
+		AD8CDDA9BCEC7931F1B8CA4A1E625F86 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA528EECC7D7B08A57E11ABBF251DF3 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B709E0AAA04BE3F8E5402F435907425E /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A7B012AF87EDCAD157876A58A9082A6 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDFA26ABEAE99080212ABDAE17B08EA5 /* Pods-CustomAlertView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0880378E864B03C7166B3A845679C9B6 /* Pods-CustomAlertView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D38172A19E7C7CFDE163F6C43AAD015F /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FF5B1D8022A1BD7E5A919326D598814 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D414BCE33994CDBEAA7CE405C1C38C26 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 951E4967DA7A28A9AFBEF1FDC324E795 /* SVProgressHUD.m */; };
-		E1A4D0C14255D164F117066B9813517A /* info@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 7C25FD1B5176B68EF5DF9BEA1E7A1761 /* info@2x.png */; };
-		E8EEA8DBFF474E92F8D9263D8B00850B /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFEEF73FB053DE24CD88FB38C791558 /* SVIndefiniteAnimatedView.m */; };
+		E13EC75839477D9F53E957DFBCCCA5EC /* SVProgressHUD+extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 32128C672B60D69D41AF0C3AE21B18CC /* SVProgressHUD+extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC2641513AD6091D5FC7B9A8B9175407 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		EDE79E486694DB9F5E253814F8FD643E /* SVProgressHUD-Prefix.pch in Sources */ = {isa = PBXBuildFile; fileRef = 48EC5299C4A96D80305A770AE41AE0DA /* SVProgressHUD-Prefix.pch */; };
 		F69C99E9F6BCE12374F44066AD071B6E /* Pods-CustomAlertView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B0694DE8E296AF4DE368CAF3B40E87 /* Pods-CustomAlertView_Tests-dummy.m */; };
-		F741A7552C47F60BFDAC9C835DAAFD80 /* success@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = DE52B58D6C745C1A127E80720B85F814 /* success@2x.png */; };
-		FFB4AD61825E55EFE1E8579F8CAE1CAE /* angle-mask.png in Sources */ = {isa = PBXBuildFile; fileRef = AFA6D2B51BA9FCAF5E4E85F4B535F947 /* angle-mask.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +40,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D16A7DB3F773F2EC9DCE6C4DA9DF6E26;
+			remoteGlobalIDString = 7E9C66B646BE7C25A792EFD8E0D0A1A3;
 			remoteInfo = CustomAlertView;
 		};
 		3BC5D8C4D8E4BDD727732E5F8254836D /* PBXContainerItemProxy */ = {
@@ -59,69 +50,68 @@
 			remoteGlobalIDString = C386F19C2AAFB2BD7336A7EBCC708070;
 			remoteInfo = "Pods-CustomAlertView_Example";
 		};
+		6EB760ED58E38B6F58F74B978D1AA25B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5C5C474E336318D88B4C27A80864333;
+			remoteInfo = "CustomAlertView-SVProgressHUD";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04E6962B595B5AF1BD53EC0BE4A3EACD /* CustomAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CustomAlertView.h; sourceTree = "<group>"; };
-		060AE8E93D947BA68A4E6647DA91E09E /* info.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		06ED3EE785920C32AE559F9B28EFFEC7 /* CustomTipView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CustomTipView.m; sourceTree = "<group>"; };
 		0880378E864B03C7166B3A845679C9B6 /* Pods-CustomAlertView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CustomAlertView_Example-umbrella.h"; sourceTree = "<group>"; };
-		15DD112291F6AAC664E3BF8A3180824E /* error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "error@2x.png"; sourceTree = "<group>"; };
-		1E0645CBF4D99A7180101FC13AC3E0AB /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
-		243203926B73E32BD8A381540D7D5CF2 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CustomAlertView/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		29D09E94D971D946981875ADF4DE26F1 /* success.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = success.png; sourceTree = "<group>"; };
-		2CBCA66641F63E3DA6E0872F4F85A5FE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24D11F37D1B2721A931D3409D7CA78C5 /* CustomAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CustomAlertView.m; sourceTree = "<group>"; };
+		32128C672B60D69D41AF0C3AE21B18CC /* SVProgressHUD+extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD+extension.h"; sourceTree = "<group>"; };
 		34DDE50E31323958FE53B81F3F75961C /* Pods-CustomAlertView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CustomAlertView_Tests.modulemap"; sourceTree = "<group>"; };
 		3535126D7D9D346429983737DE233CF2 /* Pods-CustomAlertView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomAlertView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3EE0C40C92888C336EB6372FB9EE7D94 /* Pods-CustomAlertView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomAlertView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		48E344BB569F185EC77C7D62FB8A3C1A /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		48EC5299C4A96D80305A770AE41AE0DA /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		4D0E2349A080469AC6D15C03573F4C11 /* CustomAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CustomAlertView.xcconfig; sourceTree = "<group>"; };
 		5278700CB324498B00CB0A04CCB1C3B8 /* Pods-CustomAlertView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomAlertView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		587C0F1D82BA9180F46EB658C59E0200 /* CustomAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CustomAlertView-umbrella.h"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6208EAC2BBB8AEA01DEE645D583EF5CB /* CustomAlertView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = CustomAlertView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6175DE9687E63E996111EB5CD2DCC5D6 /* CustomAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CustomAlertView-prefix.pch"; sourceTree = "<group>"; };
 		62820A3A2664131FAC112AD99A3BA3A1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		643A7960D6B17897CD58AF24737DBC86 /* CustomAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CustomAlertView-dummy.m"; sourceTree = "<group>"; };
-		71A9382AC754A6563AB3152993C26C8F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		654E1CCE00FA4EC3ED9AE16A5BCDBAD8 /* ResourceBundle-SVProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SVProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		6A4CCFF721AA21C293491C15EEDA2BF6 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		6E617529967449C0E8F882C1A5A3D1DA /* CustomAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CustomAlertView-umbrella.h"; sourceTree = "<group>"; };
 		7502BBB051490E794148255D9B3D6104 /* Pods-CustomAlertView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CustomAlertView_Example.modulemap"; sourceTree = "<group>"; };
 		7639999FF70978C7CA9B906F70352611 /* Pods-CustomAlertView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CustomAlertView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		76A984455BDC815C843CD82065D59F78 /* CustomAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CustomAlertView.m; sourceTree = "<group>"; };
+		79EFDACBF6FC4156063E5B5CA5F55E40 /* CustomTipView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CustomTipView.h; sourceTree = "<group>"; };
+		7A7B012AF87EDCAD157876A58A9082A6 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
 		7C0AD4204BB8980986FB666B71AD4BE7 /* Pods-CustomAlertView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomAlertView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7C25FD1B5176B68EF5DF9BEA1E7A1761 /* info@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "info@2x.png"; sourceTree = "<group>"; };
-		80027AC2C34557764931124BAC23EA23 /* info@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "info@3x.png"; sourceTree = "<group>"; };
+		7E499C1F870D42BEB4D49A672B1787DA /* CustomAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CustomAlertView.h; sourceTree = "<group>"; };
+		7E6F22CC026ED1D2A83308D268F14A70 /* CustomAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CustomAlertView.modulemap; sourceTree = "<group>"; };
 		817181C783352AD68671BC653D6B5B76 /* Pods-CustomAlertView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomAlertView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		82443603409F9D7B72114904F2962831 /* CustomAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CustomAlertView.modulemap; sourceTree = "<group>"; };
 		86930E81CFDF5877AD3CA2CD9A12010A /* Pods-CustomAlertView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomAlertView_Example-resources.sh"; sourceTree = "<group>"; };
-		8FF5B1D8022A1BD7E5A919326D598814 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		89B0C356927D4F86741FF99328EABAB0 /* CustomAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CustomAlertView-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		951E4967DA7A28A9AFBEF1FDC324E795 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		97955485CF4CC078F49003B3B6996DB5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9862E7837DF5ED015C4EF02D290C5CC7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9D69B8174785E0594C7779934479A529 /* SVProgressHUD+extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD+extension.m"; sourceTree = "<group>"; };
-		A1736112BFB0A3FA606FB5D9E9E254A7 /* error.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
-		A7EF32EACC7CFE15009089823698847D /* success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "success@3x.png"; sourceTree = "<group>"; };
-		AFA6D2B51BA9FCAF5E4E85F4B535F947 /* angle-mask.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "angle-mask.png"; sourceTree = "<group>"; };
+		9BF0962AE70F9E406A77EFD8243CAFE6 /* Pods_CustomAlertView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CustomAlertView_Tests.framework; path = "Pods-CustomAlertView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A08A7D0D6F8948AE1C208D197906AA68 /* SVProgressHUD+extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD+extension.m"; sourceTree = "<group>"; };
 		AFA862EB1180B1E7E9DD16B4BA743FA5 /* Pods-CustomAlertView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomAlertView_Tests-resources.sh"; sourceTree = "<group>"; };
-		B087E1C21BAB40D87085378C26FCA8EF /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
 		B3A6513B724D12B383B6A2D181C717A5 /* Pods-CustomAlertView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CustomAlertView_Example-dummy.m"; sourceTree = "<group>"; };
-		B519225A8CF1FFBC40F9D061147A4A81 /* Pods_CustomAlertView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CustomAlertView_Tests.framework; path = "Pods-CustomAlertView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8091D003F329210B369DFD0BE13C550 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B449FFAB83DEAA9D4D0BD2F6A28495FF /* SVProgressHUD.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SVProgressHUD.bundle; path = "CustomAlertView-SVProgressHUD.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B85C4E3F91E5E54038C55863B5226D2A /* Pods-CustomAlertView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomAlertView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B8D93D7C5959BAEA4F1DADD1E6E06F5B /* Pods-CustomAlertView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomAlertView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		BC4F91892265559DE3C337E6EE865F55 /* Pods_CustomAlertView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CustomAlertView_Example.framework; path = "Pods-CustomAlertView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBF4C0979CFF915DA5AB80DDAF784A80 /* Pods_CustomAlertView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CustomAlertView_Example.framework; path = "Pods-CustomAlertView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBFB75237CF7684788750CE69B046FB7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		C06F20B0EE1CE3B04AA8F084B77BB537 /* Pods-CustomAlertView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomAlertView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C07F4E2AFA314F832B5802990C14D5A5 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
-		C8EE4956AF86FEE96AD50C294DCDFA4D /* CustomAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CustomAlertView.framework; path = CustomAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEEB10A0487EF6B41ADD2F765EE56123 /* angle-mask@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "angle-mask@2x.png"; sourceTree = "<group>"; };
+		C647EBA615D3DA09BA2B356712E0EE1A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CDA528EECC7D7B08A57E11ABBF251DF3 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		D0978AD2CE2CF886D880640BDCF1901F /* CustomAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CustomAlertView.framework; path = CustomAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3052E29936C1A1ECD5659D7E154D3B3 /* Pods-CustomAlertView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomAlertView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D365D278B05487BE0D9ADA13479E497B /* CustomAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CustomAlertView-prefix.pch"; sourceTree = "<group>"; };
 		D45D8EFCC18708B7CD447F5243E0323F /* Pods-CustomAlertView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomAlertView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		D5FD359D956158D25D0E2DA7417686EC /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
-		DCBC364CBBF0E75D146483EC754D3E4C /* SVProgressHUD+extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD+extension.h"; sourceTree = "<group>"; };
-		DE52B58D6C745C1A127E80720B85F814 /* success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "success@2x.png"; sourceTree = "<group>"; };
-		DFFEEF73FB053DE24CD88FB38C791558 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		DDE0FCC1776DA3ADA6A656F54351C859 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		DF46B2853B134C90DD2622079964F863 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
 		E1B0694DE8E296AF4DE368CAF3B40E87 /* Pods-CustomAlertView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CustomAlertView_Tests-dummy.m"; sourceTree = "<group>"; };
-		E8FE8F8FF7CB33705423DBD33D39613A /* CustomAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CustomAlertView.xcconfig; sourceTree = "<group>"; };
-		EE22E658F8F38CFD0478D46E3C59BE49 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
-		F4B1E50831753B73111D7E041CEC1407 /* angle-mask@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "angle-mask@3x.png"; sourceTree = "<group>"; };
-		F5F0128C476378E3F6729B02F4DFEF69 /* error@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "error@3x.png"; sourceTree = "<group>"; };
+		E1BA7AA5AEC49383934A176724AAE4D1 /* CustomAlertView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = CustomAlertView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E5CAFACB42E1E0981EEEEA9E041A45CB /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CustomAlertView/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		EDEB0F43927EB43B4750286A0F901AA3 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		F71B7CAF4CD0C91013B32C5AE1BFD35C /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		F9A87E105E24E1E0F573585723008BF0 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,37 +131,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AAFE87FD0C74ED39388492C82BC33A01 /* Frameworks */ = {
+		E2E4552B48D231AC4DC193C2223C7A60 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E61F46C9D27F54653F973ABD7C93224 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22EA6C66B14DB3DCB5B0DF863F7E457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2641513AD6091D5FC7B9A8B9175407 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1EC64800DADD3206D93D8F9029638598 /* SVProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				48E344BB569F185EC77C7D62FB8A3C1A /* SVIndefiniteAnimatedView.h */,
-				DFFEEF73FB053DE24CD88FB38C791558 /* SVIndefiniteAnimatedView.m */,
-				8FF5B1D8022A1BD7E5A919326D598814 /* SVProgressAnimatedView.h */,
-				C07F4E2AFA314F832B5802990C14D5A5 /* SVProgressAnimatedView.m */,
-				1E0645CBF4D99A7180101FC13AC3E0AB /* SVProgressHUD.h */,
-				951E4967DA7A28A9AFBEF1FDC324E795 /* SVProgressHUD.m */,
-				DCBC364CBBF0E75D146483EC754D3E4C /* SVProgressHUD+extension.h */,
-				9D69B8174785E0594C7779934479A529 /* SVProgressHUD+extension.m */,
-				B087E1C21BAB40D87085378C26FCA8EF /* SVProgressHUD-Prefix.pch */,
-				EE22E658F8F38CFD0478D46E3C59BE49 /* SVRadialGradientLayer.h */,
-				D5FD359D956158D25D0E2DA7417686EC /* SVRadialGradientLayer.m */,
-				A3BA1EF1266980C712F1A8616051EFAF /* SVProgressHUD.bundle */,
-			);
-			name = SVProgressHUD;
-			path = CustomAlertView/Classes/SVProgressHUD;
-			sourceTree = "<group>";
-		};
 		280F075CFFD29A2DB985A65A74EA686C /* Pods-CustomAlertView_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,18 +176,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		49B9B7A0E7CBC3566393BAE3D0291062 /* Support Files */ = {
+		3D8353E8CF677B593577E37F8D7CE88B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				82443603409F9D7B72114904F2962831 /* CustomAlertView.modulemap */,
-				E8FE8F8FF7CB33705423DBD33D39613A /* CustomAlertView.xcconfig */,
-				643A7960D6B17897CD58AF24737DBC86 /* CustomAlertView-dummy.m */,
-				D365D278B05487BE0D9ADA13479E497B /* CustomAlertView-prefix.pch */,
-				587C0F1D82BA9180F46EB658C59E0200 /* CustomAlertView-umbrella.h */,
-				2CBCA66641F63E3DA6E0872F4F85A5FE /* Info.plist */,
+				E1BA7AA5AEC49383934A176724AAE4D1 /* CustomAlertView.podspec */,
+				C647EBA615D3DA09BA2B356712E0EE1A /* LICENSE */,
+				BBFB75237CF7684788750CE69B046FB7 /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CustomAlertView";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		5720B3D86F9C048700CAB502FBC243FA /* Pods-CustomAlertView_Example */ = {
@@ -239,14 +212,23 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		77080191E4E97ACAC599572A01B9C07E /* CustomAlertView */ = {
+		73CCCDA13E73DBABE4F6C633D834A1FC /* SVProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				04E6962B595B5AF1BD53EC0BE4A3EACD /* CustomAlertView.h */,
-				76A984455BDC815C843CD82065D59F78 /* CustomAlertView.m */,
+				EDEB0F43927EB43B4750286A0F901AA3 /* SVIndefiniteAnimatedView.h */,
+				DF46B2853B134C90DD2622079964F863 /* SVIndefiniteAnimatedView.m */,
+				7A7B012AF87EDCAD157876A58A9082A6 /* SVProgressAnimatedView.h */,
+				F71B7CAF4CD0C91013B32C5AE1BFD35C /* SVProgressAnimatedView.m */,
+				F9A87E105E24E1E0F573585723008BF0 /* SVProgressHUD.h */,
+				DDE0FCC1776DA3ADA6A656F54351C859 /* SVProgressHUD.m */,
+				32128C672B60D69D41AF0C3AE21B18CC /* SVProgressHUD+extension.h */,
+				A08A7D0D6F8948AE1C208D197906AA68 /* SVProgressHUD+extension.m */,
+				48EC5299C4A96D80305A770AE41AE0DA /* SVProgressHUD-Prefix.pch */,
+				CDA528EECC7D7B08A57E11ABBF251DF3 /* SVRadialGradientLayer.h */,
+				6A4CCFF721AA21C293491C15EEDA2BF6 /* SVRadialGradientLayer.m */,
 			);
-			name = CustomAlertView;
-			path = CustomAlertView/Classes/CustomAlertView;
+			name = SVProgressHUD;
+			path = CustomAlertView/Classes/SVProgressHUD;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -255,39 +237,47 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				E63A35C37A1E1CB01F53A3E061235BF9 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				85FAA89D24290E7F1D313CDC015CF33B /* Products */,
+				A6C505CBCCB2132397329BDF012CF334 /* Products */,
 				2CC615B7172CDD8E8D83E0594848ADF8 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		85FAA89D24290E7F1D313CDC015CF33B /* Products */ = {
+		81BDCF7A20245221DDE03C7C8BCBFA28 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C8EE4956AF86FEE96AD50C294DCDFA4D /* CustomAlertView.framework */,
-				BC4F91892265559DE3C337E6EE865F55 /* Pods_CustomAlertView_Example.framework */,
-				B519225A8CF1FFBC40F9D061147A4A81 /* Pods_CustomAlertView_Tests.framework */,
+				7E6F22CC026ED1D2A83308D268F14A70 /* CustomAlertView.modulemap */,
+				4D0E2349A080469AC6D15C03573F4C11 /* CustomAlertView.xcconfig */,
+				89B0C356927D4F86741FF99328EABAB0 /* CustomAlertView-dummy.m */,
+				6175DE9687E63E996111EB5CD2DCC5D6 /* CustomAlertView-prefix.pch */,
+				6E617529967449C0E8F882C1A5A3D1DA /* CustomAlertView-umbrella.h */,
+				97955485CF4CC078F49003B3B6996DB5 /* Info.plist */,
+				654E1CCE00FA4EC3ED9AE16A5BCDBAD8 /* ResourceBundle-SVProgressHUD-Info.plist */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CustomAlertView";
 			sourceTree = "<group>";
 		};
-		A3BA1EF1266980C712F1A8616051EFAF /* SVProgressHUD.bundle */ = {
+		89DF3320373BC02B255BCA29FB443A5B /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
-				AFA6D2B51BA9FCAF5E4E85F4B535F947 /* angle-mask.png */,
-				CEEB10A0487EF6B41ADD2F765EE56123 /* angle-mask@2x.png */,
-				F4B1E50831753B73111D7E041CEC1407 /* angle-mask@3x.png */,
-				A1736112BFB0A3FA606FB5D9E9E254A7 /* error.png */,
-				15DD112291F6AAC664E3BF8A3180824E /* error@2x.png */,
-				F5F0128C476378E3F6729B02F4DFEF69 /* error@3x.png */,
-				060AE8E93D947BA68A4E6647DA91E09E /* info.png */,
-				7C25FD1B5176B68EF5DF9BEA1E7A1761 /* info@2x.png */,
-				80027AC2C34557764931124BAC23EA23 /* info@3x.png */,
-				29D09E94D971D946981875ADF4DE26F1 /* success.png */,
-				DE52B58D6C745C1A127E80720B85F814 /* success@2x.png */,
-				A7EF32EACC7CFE15009089823698847D /* success@3x.png */,
+				7E499C1F870D42BEB4D49A672B1787DA /* CustomAlertView.h */,
+				24D11F37D1B2721A931D3409D7CA78C5 /* CustomAlertView.m */,
+				79EFDACBF6FC4156063E5B5CA5F55E40 /* CustomTipView.h */,
+				06ED3EE785920C32AE559F9B28EFFEC7 /* CustomTipView.m */,
 			);
-			name = SVProgressHUD.bundle;
-			path = SVProgressHUD.bundle;
+			name = CustomView;
+			path = CustomAlertView/Classes/CustomView;
+			sourceTree = "<group>";
+		};
+		A6C505CBCCB2132397329BDF012CF334 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0978AD2CE2CF886D880640BDCF1901F /* CustomAlertView.framework */,
+				BBF4C0979CFF915DA5AB80DDAF784A80 /* Pods_CustomAlertView_Example.framework */,
+				9BF0962AE70F9E406A77EFD8243CAFE6 /* Pods_CustomAlertView_Tests.framework */,
+				B449FFAB83DEAA9D4D0BD2F6A28495FF /* SVProgressHUD.bundle */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -298,32 +288,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E2B8A1A6F703C46372428FF7112D5A52 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				6208EAC2BBB8AEA01DEE645D583EF5CB /* CustomAlertView.podspec */,
-				B8091D003F329210B369DFD0BE13C550 /* LICENSE */,
-				71A9382AC754A6563AB3152993C26C8F /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		E63A35C37A1E1CB01F53A3E061235BF9 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F67CECB65AF66E081940257CE5B294F8 /* CustomAlertView */,
+				F88EB8F6A7054E9ADB21D43960C70C65 /* CustomAlertView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		F67CECB65AF66E081940257CE5B294F8 /* CustomAlertView */ = {
+		F88EB8F6A7054E9ADB21D43960C70C65 /* CustomAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				243203926B73E32BD8A381540D7D5CF2 /* ReplaceMe.m */,
-				77080191E4E97ACAC599572A01B9C07E /* CustomAlertView */,
-				E2B8A1A6F703C46372428FF7112D5A52 /* Pod */,
-				49B9B7A0E7CBC3566393BAE3D0291062 /* Support Files */,
-				1EC64800DADD3206D93D8F9029638598 /* SVProgressHUD */,
+				E5CAFACB42E1E0981EEEEA9E041A45CB /* ReplaceMe.m */,
+				89DF3320373BC02B255BCA29FB443A5B /* CustomView */,
+				3D8353E8CF677B593577E37F8D7CE88B /* Pod */,
+				81BDCF7A20245221DDE03C7C8BCBFA28 /* Support Files */,
+				73CCCDA13E73DBABE4F6C633D834A1FC /* SVProgressHUD */,
 			);
 			name = CustomAlertView;
 			path = ../..;
@@ -332,17 +312,18 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8519431273AB97882F6D8D09F6A05F97 /* Headers */ = {
+		12F8BCBF30CC21E2E2DC2A7BC9E9504E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BB9BD4B664EB11B9B150B09E02A36C3 /* CustomAlertView-umbrella.h in Headers */,
-				8826BC062620961EBE24A262CF83CFA4 /* CustomAlertView.h in Headers */,
-				847FA825E3BC30C7DDD838EABA11F0C6 /* SVIndefiniteAnimatedView.h in Headers */,
-				D38172A19E7C7CFDE163F6C43AAD015F /* SVProgressAnimatedView.h in Headers */,
-				A17840034C10DF0DCB576491CCC7B190 /* SVProgressHUD+extension.h in Headers */,
-				961173334F79F193FBC82326E04142BB /* SVProgressHUD.h in Headers */,
-				BD71BB840C14734579EDFF9C7841F346 /* SVRadialGradientLayer.h in Headers */,
+				9CFE3C9E7A92AE15F0BF5CF60925DB91 /* CustomAlertView-umbrella.h in Headers */,
+				680E910828FC69A0F5B0BB78AF2CE6F3 /* CustomAlertView.h in Headers */,
+				31FB04F6B73674F1599456623D5DC3E2 /* CustomTipView.h in Headers */,
+				284877A9F80240EE4B363558D5E808CF /* SVIndefiniteAnimatedView.h in Headers */,
+				B709E0AAA04BE3F8E5402F435907425E /* SVProgressAnimatedView.h in Headers */,
+				E13EC75839477D9F53E957DFBCCCA5EC /* SVProgressHUD+extension.h in Headers */,
+				826A82F9D8653FDE6CA96EAE3F4857FE /* SVProgressHUD.h in Headers */,
+				AD8CDDA9BCEC7931F1B8CA4A1E625F86 /* SVRadialGradientLayer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,7 +361,26 @@
 			);
 			name = "Pods-CustomAlertView_Tests";
 			productName = "Pods-CustomAlertView_Tests";
-			productReference = B519225A8CF1FFBC40F9D061147A4A81 /* Pods_CustomAlertView_Tests.framework */;
+			productReference = 9BF0962AE70F9E406A77EFD8243CAFE6 /* Pods_CustomAlertView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7E9C66B646BE7C25A792EFD8E0D0A1A3 /* CustomAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AF29867F7E6701BD254724DBF51C79B /* Build configuration list for PBXNativeTarget "CustomAlertView" */;
+			buildPhases = (
+				AC96CA83222DBB2A14FA0F0BC9133FFD /* Sources */,
+				F22EA6C66B14DB3DCB5B0DF863F7E457 /* Frameworks */,
+				1DF5EDCA35180C7DFE123B4625A714D0 /* Resources */,
+				12F8BCBF30CC21E2E2DC2A7BC9E9504E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8BDC0222A58EEDC69697796AB7D7E88 /* PBXTargetDependency */,
+			);
+			name = CustomAlertView;
+			productName = CustomAlertView;
+			productReference = D0978AD2CE2CF886D880640BDCF1901F /* CustomAlertView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C386F19C2AAFB2BD7336A7EBCC708070 /* Pods-CustomAlertView_Example */ = {
@@ -398,25 +398,25 @@
 			);
 			name = "Pods-CustomAlertView_Example";
 			productName = "Pods-CustomAlertView_Example";
-			productReference = BC4F91892265559DE3C337E6EE865F55 /* Pods_CustomAlertView_Example.framework */;
+			productReference = BBF4C0979CFF915DA5AB80DDAF784A80 /* Pods_CustomAlertView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D16A7DB3F773F2EC9DCE6C4DA9DF6E26 /* CustomAlertView */ = {
+		C5C5C474E336318D88B4C27A80864333 /* CustomAlertView-SVProgressHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9153E930295DADC52E55FFFF785CAF91 /* Build configuration list for PBXNativeTarget "CustomAlertView" */;
+			buildConfigurationList = BFAF54A1B3528C054F92327F302720B2 /* Build configuration list for PBXNativeTarget "CustomAlertView-SVProgressHUD" */;
 			buildPhases = (
-				2600ADD68583132EF8C41EC5DF4ED3B2 /* Sources */,
-				AAFE87FD0C74ED39388492C82BC33A01 /* Frameworks */,
-				8519431273AB97882F6D8D09F6A05F97 /* Headers */,
+				B986FDEEEC69F6EAF19A46A364BF0FEE /* Sources */,
+				E2E4552B48D231AC4DC193C2223C7A60 /* Frameworks */,
+				78647E221F8ADCB8A1D1307179EECB21 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CustomAlertView;
-			productName = CustomAlertView;
-			productReference = C8EE4956AF86FEE96AD50C294DCDFA4D /* CustomAlertView.framework */;
-			productType = "com.apple.product-type.framework";
+			name = "CustomAlertView-SVProgressHUD";
+			productName = "CustomAlertView-SVProgressHUD";
+			productReference = B449FFAB83DEAA9D4D0BD2F6A28495FF /* SVProgressHUD.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -435,43 +435,51 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 85FAA89D24290E7F1D313CDC015CF33B /* Products */;
+			productRefGroup = A6C505CBCCB2132397329BDF012CF334 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D16A7DB3F773F2EC9DCE6C4DA9DF6E26 /* CustomAlertView */,
+				7E9C66B646BE7C25A792EFD8E0D0A1A3 /* CustomAlertView */,
+				C5C5C474E336318D88B4C27A80864333 /* CustomAlertView-SVProgressHUD */,
 				C386F19C2AAFB2BD7336A7EBCC708070 /* Pods-CustomAlertView_Example */,
 				60EB79AB711BDCFF84B2030ADC125A3B /* Pods-CustomAlertView_Tests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		1DF5EDCA35180C7DFE123B4625A714D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187F42B4D21D9B03B1124E44DAB389C5 /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78647E221F8ADCB8A1D1307179EECB21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		2600ADD68583132EF8C41EC5DF4ED3B2 /* Sources */ = {
+		AC96CA83222DBB2A14FA0F0BC9133FFD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFB4AD61825E55EFE1E8579F8CAE1CAE /* angle-mask.png in Sources */,
-				C1A3C57566E48079A70286CE92933509 /* angle-mask@2x.png in Sources */,
-				774292A17B99C52211721759F1143046 /* angle-mask@3x.png in Sources */,
-				453C2251B5989D5E49B85FCD6124F404 /* CustomAlertView-dummy.m in Sources */,
-				23944D002224043A49077EB353F72A96 /* CustomAlertView.m in Sources */,
-				43EC2C3F53C0FD75FEC9E9750F796AC5 /* error.png in Sources */,
-				862EE90F095513E73AE756D3BED74521 /* error@2x.png in Sources */,
-				42BDE1673467A9480B28DDA563E7EFBD /* error@3x.png in Sources */,
-				2FB63F16BE11609FC19B855AE351A2C3 /* info.png in Sources */,
-				E1A4D0C14255D164F117066B9813517A /* info@2x.png in Sources */,
-				694CD972E9FD6024383ED47C30E0D7AE /* info@3x.png in Sources */,
-				CDB9041AB85ACF70E17C5CA973277B10 /* ReplaceMe.m in Sources */,
-				14F6F52D12A507EB4C7BE41393C25720 /* success.png in Sources */,
-				F741A7552C47F60BFDAC9C835DAAFD80 /* success@2x.png in Sources */,
-				C299F338D5FE88843CE1613DE4A40DC2 /* success@3x.png in Sources */,
-				E8EEA8DBFF474E92F8D9263D8B00850B /* SVIndefiniteAnimatedView.m in Sources */,
-				92B9659D482CBD54AFF24A44DD4E971D /* SVProgressAnimatedView.m in Sources */,
-				36321AA39D89F8F0B7F3A62EE94107E0 /* SVProgressHUD+extension.m in Sources */,
-				04FF1534454F30069E389852D09F7C07 /* SVProgressHUD-Prefix.pch in Sources */,
-				D414BCE33994CDBEAA7CE405C1C38C26 /* SVProgressHUD.m in Sources */,
-				C7080D50C9C19DD77F82E7C35F44CF2B /* SVRadialGradientLayer.m in Sources */,
+				709A9FFEE78FF254E8205C1265C9CF32 /* CustomAlertView-dummy.m in Sources */,
+				9A58FD410D0E5DFD7875C62D7BB19D8A /* CustomAlertView.m in Sources */,
+				8078C4253D81B3C2550B3EAB4F568C9C /* CustomTipView.m in Sources */,
+				4C3A67F9764D12CB5A6C631247F76B69 /* ReplaceMe.m in Sources */,
+				6B6F462B6624B1AA255D4AB14CE079CB /* SVIndefiniteAnimatedView.m in Sources */,
+				471AC4DC86E36BEF8346349E8AFE3A4A /* SVProgressAnimatedView.m in Sources */,
+				333F6526AE80EF09974FF66BD179F20E /* SVProgressHUD+extension.m in Sources */,
+				EDE79E486694DB9F5E253814F8FD643E /* SVProgressHUD-Prefix.pch in Sources */,
+				ABE92D47E8FDC33DDDB7318E74E231E3 /* SVProgressHUD.m in Sources */,
+				264B23290EDA95D24CEC79F27D878CEB /* SVRadialGradientLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +488,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F69C99E9F6BCE12374F44066AD071B6E /* Pods-CustomAlertView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B986FDEEEC69F6EAF19A46A364BF0FEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,42 +515,34 @@
 			target = C386F19C2AAFB2BD7336A7EBCC708070 /* Pods-CustomAlertView_Example */;
 			targetProxy = 3BC5D8C4D8E4BDD727732E5F8254836D /* PBXContainerItemProxy */;
 		};
+		D8BDC0222A58EEDC69697796AB7D7E88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CustomAlertView-SVProgressHUD";
+			target = C5C5C474E336318D88B4C27A80864333 /* CustomAlertView-SVProgressHUD */;
+			targetProxy = 6EB760ED58E38B6F58F74B978D1AA25B /* PBXContainerItemProxy */;
+		};
 		FE0EE19481EDA0210D7900DFDEFCF52C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CustomAlertView;
-			target = D16A7DB3F773F2EC9DCE6C4DA9DF6E26 /* CustomAlertView */;
+			target = 7E9C66B646BE7C25A792EFD8E0D0A1A3 /* CustomAlertView */;
 			targetProxy = 233364E37F5527E5D724F405A5E66845 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		042016386C0A3EB6D751A0187E6E94F7 /* Debug */ = {
+		1AD97EA9DBB3AD2D4E6B09D40802ED69 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8FE8F8FF7CB33705423DBD33D39613A /* CustomAlertView.xcconfig */;
+			baseConfigurationReference = 4D0E2349A080469AC6D15C03573F4C11 /* CustomAlertView.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CustomAlertView/CustomAlertView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CustomAlertView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CustomAlertView";
+				INFOPLIST_FILE = "Target Support Files/CustomAlertView/ResourceBundle-SVProgressHUD-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CustomAlertView/CustomAlertView.modulemap";
-				PRODUCT_MODULE_NAME = CustomAlertView;
-				PRODUCT_NAME = CustomAlertView;
+				PRODUCT_NAME = SVProgressHUD;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -639,6 +646,53 @@
 			};
 			name = Debug;
 		};
+		68ED528510AEC567010C5C57C6FA6819 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D0E2349A080469AC6D15C03573F4C11 /* CustomAlertView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CustomAlertView";
+				INFOPLIST_FILE = "Target Support Files/CustomAlertView/ResourceBundle-SVProgressHUD-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		78EAA023F627E756E8A333945A486C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D0E2349A080469AC6D15C03573F4C11 /* CustomAlertView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CustomAlertView/CustomAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CustomAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CustomAlertView/CustomAlertView.modulemap";
+				PRODUCT_MODULE_NAME = CustomAlertView;
+				PRODUCT_NAME = CustomAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -701,37 +755,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		A1EAB0FC418CF20E3B50CA62D0B3BDD2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8FE8F8FF7CB33705423DBD33D39613A /* CustomAlertView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CustomAlertView/CustomAlertView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CustomAlertView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CustomAlertView/CustomAlertView.modulemap";
-				PRODUCT_MODULE_NAME = CustomAlertView;
-				PRODUCT_NAME = CustomAlertView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -825,6 +848,36 @@
 			};
 			name = Release;
 		};
+		E5EC8F242E7CEA21E46A3CB4A4B363B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D0E2349A080469AC6D15C03573F4C11 /* CustomAlertView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CustomAlertView/CustomAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CustomAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CustomAlertView/CustomAlertView.modulemap";
+				PRODUCT_MODULE_NAME = CustomAlertView;
+				PRODUCT_NAME = CustomAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -846,11 +899,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9153E930295DADC52E55FFFF785CAF91 /* Build configuration list for PBXNativeTarget "CustomAlertView" */ = {
+		8AF29867F7E6701BD254724DBF51C79B /* Build configuration list for PBXNativeTarget "CustomAlertView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				042016386C0A3EB6D751A0187E6E94F7 /* Debug */,
-				A1EAB0FC418CF20E3B50CA62D0B3BDD2 /* Release */,
+				E5EC8F242E7CEA21E46A3CB4A4B363B4 /* Debug */,
+				78EAA023F627E756E8A333945A486C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFAF54A1B3528C054F92327F302720B2 /* Build configuration list for PBXNativeTarget "CustomAlertView-SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD97EA9DBB3AD2D4E6B09D40802ED69 /* Debug */,
+				68ED528510AEC567010C5C57C6FA6819 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

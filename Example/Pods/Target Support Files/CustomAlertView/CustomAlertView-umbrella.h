@@ -11,6 +11,7 @@
 #endif
 
 #import "CustomAlertView.h"
+#import "CustomTipView.h"
 #import "SVIndefiniteAnimatedView.h"
 #import "SVProgressAnimatedView.h"
 #import "SVProgressHUD+extension.h"

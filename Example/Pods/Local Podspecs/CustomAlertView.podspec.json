@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "CustomAlertView/Classes/**/*"
+  "source_files": "CustomAlertView/Classes/**/*",
+  "resource_bundles": {
+    "SVProgressHUD": [
+      "CustomAlertView/Assets/SVProgressHUD/*.png"
+    ]
+  }
 }

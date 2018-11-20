@@ -23,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		BABFED6E21A3FC4E00F52750 /* FieldInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BABFED6C21A3FC4E00F52750 /* FieldInfo.m */; };
 		FD58019C8DC4987402CD8F90 /* Pods_CustomAlertView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7646DC863A2E1B50E78D8A23 /* Pods_CustomAlertView_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		158F06DD4B156041238B5F8B /* Pods_CustomAlertView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomAlertView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		29619053DFF9D1D41271C3FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		29619053DFF9D1D41271C3FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		38430082CD62CD22B67E04FD /* Pods-CustomAlertView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomAlertView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomAlertView_Tests/Pods-CustomAlertView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CustomAlertView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomAlertView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,9 +63,11 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7646DC863A2E1B50E78D8A23 /* Pods_CustomAlertView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomAlertView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A3E77F5FDA523B52DFE18CB5 /* CustomAlertView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CustomAlertView.podspec; path = ../CustomAlertView.podspec; sourceTree = "<group>"; };
+		A3E77F5FDA523B52DFE18CB5 /* CustomAlertView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CustomAlertView.podspec; path = ../CustomAlertView.podspec; sourceTree = "<group>"; };
 		A626F84D83EEF5C44DDE9636 /* Pods-CustomAlertView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomAlertView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomAlertView_Example/Pods-CustomAlertView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BAEEEDCAADD48F79F9AD6C3B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BABFED6C21A3FC4E00F52750 /* FieldInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FieldInfo.m; sourceTree = "<group>"; };
+		BABFED6D21A3FC4E00F52750 /* FieldInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldInfo.h; sourceTree = "<group>"; };
+		BAEEEDCAADD48F79F9AD6C3B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DE758DB908AA30D1FE19F64F /* Pods-CustomAlertView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomAlertView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomAlertView_Example/Pods-CustomAlertView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E1766FFB210DDD3FCD95D4ED /* Pods-CustomAlertView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomAlertView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomAlertView_Tests/Pods-CustomAlertView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -135,6 +138,8 @@
 				6003F59C195388D20070C39A /* LFAppDelegate.h */,
 				6003F59D195388D20070C39A /* LFAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				BABFED6D21A3FC4E00F52750 /* FieldInfo.h */,
+				BABFED6C21A3FC4E00F52750 /* FieldInfo.m */,
 				6003F5A5195388D20070C39A /* LFViewController.h */,
 				6003F5A6195388D20070C39A /* LFViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
@@ -357,6 +362,7 @@
 			files = (
 				6003F59E195388D20070C39A /* LFAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LFViewController.m in Sources */,
+				BABFED6E21A3FC4E00F52750 /* FieldInfo.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

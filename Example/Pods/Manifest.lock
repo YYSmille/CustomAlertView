@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CustomAlertView: ad99fb3fd1bb7bc0832f927d7ce3498e41587046
+  CustomAlertView: 13decb8c4f28537191cae3ee2b45306fdbc52dc7
 
 PODFILE CHECKSUM: 86a67ce707cb0da188ead671adf7ea4525938b62
 
