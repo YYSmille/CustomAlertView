@@ -10,7 +10,9 @@
 #import "CustomAlertView.h"
 #import "SVProgressHUD+extension.h"
 #import "FieldInfo.h"
+#import "CommonTableCell.h"
 #import "CustomTipView.h"
+
 
 @interface LFViewController ()<UITableViewDelegate, UITableViewDataSource,CustomAlertViewDelegate>
 @property (nonatomic, strong) NSMutableArray <FieldInfo *>*dataList;

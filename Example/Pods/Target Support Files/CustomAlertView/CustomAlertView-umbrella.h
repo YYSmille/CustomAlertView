@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "CommonTableCell.h"
 #import "CustomAlertView.h"
 #import "CustomTipView.h"
 #import "SVIndefiniteAnimatedView.h"

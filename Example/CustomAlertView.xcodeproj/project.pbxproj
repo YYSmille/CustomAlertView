@@ -23,6 +23,10 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		BA5A596E21A429FE0021C0F7 /* MyUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BA5A596921A429FE0021C0F7 /* MyUtils.m */; };
+		BA5A596F21A429FE0021C0F7 /* UIView+Line.m in Sources */ = {isa = PBXBuildFile; fileRef = BA5A596A21A429FE0021C0F7 /* UIView+Line.m */; };
+		BA5A597021A429FE0021C0F7 /* NSString+Attributed.m in Sources */ = {isa = PBXBuildFile; fileRef = BA5A596B21A429FE0021C0F7 /* NSString+Attributed.m */; };
+		BA5A597321A42C590021C0F7 /* NSString+UIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = BA5A597121A42C590021C0F7 /* NSString+UIColor.m */; };
 		BABFED6E21A3FC4E00F52750 /* FieldInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BABFED6C21A3FC4E00F52750 /* FieldInfo.m */; };
 		FD58019C8DC4987402CD8F90 /* Pods_CustomAlertView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7646DC863A2E1B50E78D8A23 /* Pods_CustomAlertView_Example.framework */; };
 /* End PBXBuildFile section */
@@ -65,6 +69,14 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3E77F5FDA523B52DFE18CB5 /* CustomAlertView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CustomAlertView.podspec; path = ../CustomAlertView.podspec; sourceTree = "<group>"; };
 		A626F84D83EEF5C44DDE9636 /* Pods-CustomAlertView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomAlertView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomAlertView_Example/Pods-CustomAlertView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BA5A596821A429FE0021C0F7 /* NSString+Attributed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Attributed.h"; sourceTree = "<group>"; };
+		BA5A596921A429FE0021C0F7 /* MyUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUtils.m; sourceTree = "<group>"; };
+		BA5A596A21A429FE0021C0F7 /* UIView+Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Line.m"; sourceTree = "<group>"; };
+		BA5A596B21A429FE0021C0F7 /* NSString+Attributed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Attributed.m"; sourceTree = "<group>"; };
+		BA5A596C21A429FE0021C0F7 /* UIView+Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Line.h"; sourceTree = "<group>"; };
+		BA5A596D21A429FE0021C0F7 /* MyUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUtils.h; sourceTree = "<group>"; };
+		BA5A597121A42C590021C0F7 /* NSString+UIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UIColor.m"; sourceTree = "<group>"; };
+		BA5A597221A42C590021C0F7 /* NSString+UIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UIColor.h"; sourceTree = "<group>"; };
 		BABFED6C21A3FC4E00F52750 /* FieldInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FieldInfo.m; sourceTree = "<group>"; };
 		BABFED6D21A3FC4E00F52750 /* FieldInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldInfo.h; sourceTree = "<group>"; };
 		BAEEEDCAADD48F79F9AD6C3B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -135,6 +147,7 @@
 		6003F593195388D20070C39A /* Example for CustomAlertView */ = {
 			isa = PBXGroup;
 			children = (
+				BA5A596721A429FE0021C0F7 /* Tools */,
 				6003F59C195388D20070C39A /* LFAppDelegate.h */,
 				6003F59D195388D20070C39A /* LFAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -188,6 +201,21 @@
 				BAEEEDCAADD48F79F9AD6C3B /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		BA5A596721A429FE0021C0F7 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				BA5A597221A42C590021C0F7 /* NSString+UIColor.h */,
+				BA5A597121A42C590021C0F7 /* NSString+UIColor.m */,
+				BA5A596821A429FE0021C0F7 /* NSString+Attributed.h */,
+				BA5A596B21A429FE0021C0F7 /* NSString+Attributed.m */,
+				BA5A596D21A429FE0021C0F7 /* MyUtils.h */,
+				BA5A596921A429FE0021C0F7 /* MyUtils.m */,
+				BA5A596C21A429FE0021C0F7 /* UIView+Line.h */,
+				BA5A596A21A429FE0021C0F7 /* UIView+Line.m */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 		C67C9F0E9E671DB27C2755F5 /* Pods */ = {
@@ -307,10 +335,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CustomAlertView_Example/Pods-CustomAlertView_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CustomAlertView/CustomAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CustomAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -360,9 +390,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA5A596F21A429FE0021C0F7 /* UIView+Line.m in Sources */,
 				6003F59E195388D20070C39A /* LFAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LFViewController.m in Sources */,
+				BA5A597021A429FE0021C0F7 /* NSString+Attributed.m in Sources */,
 				BABFED6E21A3FC4E00F52750 /* FieldInfo.m in Sources */,
+				BA5A597321A42C590021C0F7 /* NSString+UIColor.m in Sources */,
+				BA5A596E21A429FE0021C0F7 /* MyUtils.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

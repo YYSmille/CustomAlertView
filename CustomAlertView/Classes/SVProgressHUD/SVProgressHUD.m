@@ -1030,7 +1030,7 @@ static const CGFloat SVProgressHUDLabelSpacing = 8.0f;
             // When UIViewAnimationOptionBeginFromCurrentState is set, animateWithDuration: evaluates the current
             // values to check if an animation is necessary. The evaluation happens at function call time and not
             // after the delay => the animation is sometimes skipped. Therefore we delay using dispatch_after.
-            
+                        
             dispatch_time_t dipatchTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delay * NSEC_PER_SEC));
             dispatch_after(dipatchTime, dispatch_get_main_queue(), ^{
                 if (strongSelf.fadeOutAnimationDuration > 0) {
@@ -1055,6 +1055,34 @@ static const CGFloat SVProgressHUDLabelSpacing = 8.0f;
     }];
 }
 
+- (void)hideProgressHUD:(void (^)())animationsBlock completion:(void (^)())completionBlock{
+    dispatch_async(dispatch_get_main_queue(), ^{
+        if (self.fadeOutAnimationDuration > 0) {
+            // Animate appearance
+            [UIView animateWithDuration:self.fadeOutAnimationDuration
+                                  delay:0
+                                options:(UIViewAnimationOptions) (UIViewAnimationOptionAllowUserInteraction | UIViewAnimationCurveEaseOut | UIViewAnimationOptionBeginFromCurrentState)
+                             animations:^{
+                                 if (animationsBlock != nil) {
+                                     animationsBlock();
+                                 }
+                             } completion:^(BOOL finished) {
+                                 if (completionBlock != nil) {
+                                     completionBlock();
+                                 }
+                             }];
+        } else {
+            if (animationsBlock != nil) {
+                animationsBlock();
+            }
+            if (completionBlock != nil) {
+                completionBlock();
+            }
+            
+        }
+    });
+
+}
 
 #pragma mark - Ring progress animation
 

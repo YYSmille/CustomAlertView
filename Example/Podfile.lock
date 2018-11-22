@@ -1,15 +1,22 @@
 PODS:
-  - CustomAlertView (0.1.0)
+  - CustomAlertView (0.1.0):
+    - Masonry
+  - Masonry (1.1.0)
 
 DEPENDENCIES:
   - CustomAlertView (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
 
 EXTERNAL SOURCES:
   CustomAlertView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CustomAlertView: 13decb8c4f28537191cae3ee2b45306fdbc52dc7
+  CustomAlertView: c18ae06a2db599e4b26e8c4c492cee8d4f908f59
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: 86a67ce707cb0da188ead671adf7ea4525938b62
 

@@ -23,5 +23,10 @@
     "SVProgressHUD": [
       "CustomAlertView/Assets/SVProgressHUD/*.png"
     ]
+  },
+  "dependencies": {
+    "Masonry": [
+
+    ]
   }
 }

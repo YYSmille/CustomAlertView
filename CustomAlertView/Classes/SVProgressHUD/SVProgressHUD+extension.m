@@ -12,9 +12,9 @@ static float duratiomTime = 0.7f;
 + (void)load{
     [SVProgressHUD setDefaultStyle:SVProgressHUDStyleDark];
     [SVProgressHUD setImageViewSize:CGSizeZero];
-    [SVProgressHUD setInfoImage:[[UIImage alloc] init]];
-//    [SVProgressHUD setSuccessImage:[[UIImage alloc] init]];
-    [SVProgressHUD setSuccessImage:nil];
+//    [SVProgressHUD setInfoImage:[[UIImage alloc] init]];
+//    [SVProgressHUD setInfoImage:nil];
+//    [SVProgressHUD setSuccessImage:nil];
     [SVProgressHUD setErrorImage:[[UIImage alloc] init]];
     [SVProgressHUD setShouldTintImages:NO];
     [SVProgressHUD setDefaultAnimationType:SVProgressHUDAnimationTypeNative];
@@ -25,8 +25,8 @@ static float duratiomTime = 0.7f;
 
 + (void)showMessage:(NSString *)message{
 //    [SVProgressHUD showWithStatus:message];
-    [SVProgressHUD showSuccessWithStatus:message];
-//    [self showMessage:message duration:duratiomTime completed:nil];
+//    [SVProgressHUD showSuccessWithStatus:message];
+    [self showMessage:message duration:duratiomTime completed:nil];
 }
 
 + (void)showMessage:(NSString *)message completed:(SVProgressHUDDismissCompletion)completed{
@@ -38,13 +38,21 @@ static float duratiomTime = 0.7f;
 }
 
 + (void)showMessage:(NSString *)message duration:(float)duration completed:(void (^)(void))completed{
+    [SVProgressHUD dismiss];
     
+    [NSObject cancelPreviousPerformRequestsWithTarget:self selector:@selector(hideProgressHUD) object:nil];
     if (message.length) {
-        [SVProgressHUD showWithStatus:message];
+        [SVProgressHUD showInfoWithStatus:message];
     }
     else{
         [SVProgressHUD show];
     }
-    [SVProgressHUD dismissWithDelay:duration completion:completed];
+//    [SVProgressHUD dismissWithDelay:duration];
+//    NSLog(@"thread----%@", [NSThread currentThread]);
+    [self performSelector:@selector(hideProgressHUD) withObject:nil afterDelay:duration];
 }
+
++ (void)hideProgressHUD{
+    [SVProgressHUD dismiss];
+};
 @end

@@ -57,7 +57,7 @@
     _tipBgView.frame = rc;
     [UIView animateWithDuration:duration animations:^{
         rc.origin.y = 0;
-        _tipBgView.frame = rc;
+        self->_tipBgView.frame = rc;
     } completion:^(BOOL finished) {
         if (complete != nil) {
             complete();
