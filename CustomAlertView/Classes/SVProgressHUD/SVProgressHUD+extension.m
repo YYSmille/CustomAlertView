@@ -49,10 +49,13 @@ static float duratiomTime = 0.7f;
     }
 //    [SVProgressHUD dismissWithDelay:duration];
 //    NSLog(@"thread----%@", [NSThread currentThread]);
-    [self performSelector:@selector(hideProgressHUD) withObject:nil afterDelay:duration];
+    [self performSelector:@selector(hideProgressHUD:) withObject:completed afterDelay:duration];
 }
 
-+ (void)hideProgressHUD{
++ (void)hideProgressHUD:(void (^)(void))completed{
     [SVProgressHUD dismiss];
+    if (completed != nil) {
+        completed();
+    }
 };
 @end
